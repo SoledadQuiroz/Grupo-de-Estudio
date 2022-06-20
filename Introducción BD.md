@@ -67,7 +67,7 @@ leer los últimos datos hay que leer los anteriores.
 - No se pueden eliminar registros del fichero (se pueden marcar de manera especial para que no
 sean tenidos en cuenta, pero no se pueden borrar)
 - El borrado provoca archivos que no son compactos
- La ordenación de los datos requiere volver a crearle de nuevo
+- La ordenación de los datos requiere volver a crearle de nuevo
 - Fin de fichero (***eof***). Indica si hemos llegado al final del fichero.
 
 **3.2 Ficheros de acceso directo o aleatorio.**
@@ -75,18 +75,18 @@ sean tenidos en cuenta, pero no se pueden borrar)
 Se puede leer una posición concreta del fichero, con saber la posición (normalmente en bytes) del dato a leer, lo quese hace es colocar el llamado puntero de archivo en esa posición y después leer.
 
 **Ventajas**
--Acceso rápido al no tener que leer los datos anteriores
--La modificación de datos es más sencilla
--Permiten acceso secuencial
--Permiten leer y escribir a la vez
--Aptos para organizaciones relativas directas, en las que la clave del registro se relaciona con
+- Acceso rápido al no tener que leer los datos anteriores
+- La modificación de datos es más sencilla
+- Permiten acceso secuencial
+- Permiten leer y escribir a la vez
+- Aptos para organizaciones relativas directas, en las que la clave del registro se relaciona con
 su posición en el archivo
 
 **Desventajas**
-Salvo en archivos relativos directos, no es apto por sí mismo para usar en bases de datos, ya que
+- Salvo en archivos relativos directos, no es apto por sí mismo para usar en bases de datos, ya que
 los datos se organizan en base a una clave
--No se pueden borrar datos (sí marcar para borrado, pero generarán huecos)
--Las consultas sobre multitud de registros son más lentas que en el caso anterior.
+- No se pueden borrar datos (sí marcar para borrado, pero generarán huecos)
+- Las consultas sobre multitud de registros son más lentas que en el caso anterior.
 
 **3.3 Ficheros secuenciales encadenados.**
 
@@ -95,20 +95,77 @@ Son ficheros secuenciales gestionados mediante punteros.
 **Ventajas**
 -El fichero mantiene el orden en el que se añadieron los registros y un segundo orden en base a
 una clave
--La ordenación no requiere reorganizar todo el fichero, sino sólo modificar los punteros
--Las mismas ventajas que el acceso secuencial
--En esta caso sí se borran los registros y al reorganizar, se perderán definitivamente
+- La ordenación no requiere reorganizar todo el fichero, sino sólo modificar los punteros
+- Las mismas ventajas que el acceso secuencial
+- En esta caso sí se borran los registros y al reorganizar, se perderán definitivamente
 
 **Desventajas**
--No se borran los registros, sino que se marcan para ser ignorados. Por lo que se malgasta
+- No se borran los registros, sino que se marcan para ser ignorados. Por lo que se malgasta
 espacio
--Añadir registros o modificar las claves son operaciones que requieren recalcular los punteros
+- Añadir registros o modificar las claves son operaciones que requieren recalcular los punteros
 
-# **3.4 Ficheros secuenciales indexados.**
+ **3.4 Ficheros secuenciales indexados.**
 
 Se utilizan dos ficheros para los datos, uno posee los registros almacenados de forma secuencial, pero
 que permite su acceso aleatorio. El otro posee una tabla con punteros a la posición ordenada de los
 registros. Ese segundo fichero es el índice, una tabla con la ordenación deseada para los registros y la
 posición que ocupan en el archivo. 
 
+**Ventajas**
+- El archivo está siempre ordenado en base a una clave
+- La búsqueda de datos es rapidísima
+- Permite la lectura secuencial (que además será en el orden de la clave)
+- El borrado de registros es posible (aunque más problemático que en el caso anterior)
+- 
+**Desventajas**
+- Para un uso óptimo hay que reorganizar el archivo principal y esta operación es muy costosa ya
+que hay que reescribir de nuevo y de forma ordenada todo el archivo.
+- La adición de registros requiere más tiempo que en los casos anteriores al tener que reordenar los índices
 
+**3.5 Ficheros indexado – encadenados.**
+
+Utiliza punteros e índices, es una variante encadenada del caso anterior. Hay un fichero de índices y otro fichero de tipo encadenado con punteros a los
+siguientes registros. Cuando se añaden registros se añaden en un tercer registro llamado de desbordamiento u overflow.En ese archivo los datos se almacenan secuencialmente.
+
+**Ventajas**
+- Posee las mismas ventajas que los archivos secuenciales indexados, además de una mayor
+rapidez al reorganizar el fichero (sólo se modifican los punteros)
+
+**Desventajas**
+- Requieren compactar los datos a menudo para reorganizar índices y quitar el fichero de
+desbordamiento.
+
+## **4. Operaciones relacionadas con uso de ficheros en bases de datos.**
+
+**Borrado y recuperación de registros**
+
+Algunos de los tipos de ficheros vistos anteriormente no admiten el borrado real de datos, sino que sólo permiten añadir un dato que indica si el registro está borrado o no. Esto es interesante ya que permite
+anular una operación de borrado.
+En otros casos los datos antes de ser eliminados del todo pasan a un fichero especial en el que se mantienen durante cierto tiempo para su posible recuperación.
+
+**Fragmentación y compactación de datos**
+
+La fragmentación en un archivo hace referencia a la posibilidad de que éste tenga huecos interiores
+debido a borrado de datos u a otras causas. Causa los siguientes problemas:
+
+- Mayor espacio de almacenamiento
+- Lentitud en las operaciones de lectura y escritura del fichero
+
+Por ello se requiere compactar los datos. Esta técnica permite eliminar los huecos interiores a un
+archivo. Las formas de realizarla son:
+
+- Reescribir el archivo para eliminar los huecos. Es la mejor, pero lógicamente es la más
+lenta al requerir releer y reorganizar todo el contenido del fichero.
+
+- Aprovechar huecos. De forma que los nuevos registros se inserten en esos huecos. Esta
+técnica suele requerir un paso previo para reorganizar esos huecos.
+
+**Compresión de datos**
+
+Para ahorrar espacio de almacenamiento, se utilizan técnicas de compresión de datos.
+La ventaja es que los datos ocupan menos espacio y la desventaja es que al manipular los datos hay
+que descomprimirlos lo que hace que la manipulación de los datos sea lenta.
+
+**Cifrado de datos**
+
+Utilizar técnicas de cifrado para proteger los ficheros en caso de que alguien no autorizado se haga con el fichero. Para descifrar necesitamos una clave o bien aplicar métodos de descifrado.
