@@ -11,7 +11,7 @@ La informática adaptó sus herramientas para que los elementos que el usuario m
 formularios, carpetas, directorios.
 
 ## 2. Sistemas de información
-**2.1 La empresa como sistema.**
+### **2.1 La empresa como sistema.**
 
 El sistema completo que forma la empresa se suele dividir en los siguientes subsistemas:
 - Subsistema productivo. También llamado subsistema real o físico. Representa la parte de la
@@ -19,7 +19,7 @@ empresa encargada de gestionar la producción de la misma.
 - Subsistema financiero. Encargado de la gestión de los bienes económicos de la empresa
 - Subsistema directivo. Encargado de la gestión organizativa de la empresa
 
-**2.2 Sistemas de información.**
+### **2.2 Sistemas de información.**
 
 Un sistema de información genérico está formado por los siguientes elementos:
 - Recursos físicos. Carpetas, documentos, equipamiento, discos.
@@ -27,7 +27,7 @@ Un sistema de información genérico está formado por los siguientes elementos:
 - Protocolo. Normas que debe cumplir la información para que sea manejada (formato de la
 información, modelo para los documentos,etc)
 
-**2.3 Componentes de un sistema de información electrónico.**
+### **2.3 Componentes de un sistema de información electrónico.**
 
 En el caso de una gestión electrónica de la información , los componentes son:
 
@@ -52,7 +52,7 @@ En general sobre los archivos se pueden realizar las siguientes operaciones:
 - Posicionarse (***seek***). Coloca el puntero de lectura en una posición
 concreta del mismo (no se puede realizar en todos los tipos de ficheros).
 
-**3.1 ficheros secuenciales.**
+### **3.1 ficheros secuenciales.**
 
 En estos ficheros, los datos se organizan secuencialmente en el orden en el que fueron grabados. Para
 leer los últimos datos hay que leer los anteriores.
@@ -70,7 +70,7 @@ sean tenidos en cuenta, pero no se pueden borrar)
 - La ordenación de los datos requiere volver a crearle de nuevo
 - Fin de fichero (***eof***). Indica si hemos llegado al final del fichero.
 
-**3.2 Ficheros de acceso directo o aleatorio.**
+### **3.2 Ficheros de acceso directo o aleatorio.**
 
 Se puede leer una posición concreta del fichero, con saber la posición (normalmente en bytes) del dato a leer, lo quese hace es colocar el llamado puntero de archivo en esa posición y después leer.
 
@@ -88,7 +88,7 @@ los datos se organizan en base a una clave
 - No se pueden borrar datos (sí marcar para borrado, pero generarán huecos)
 - Las consultas sobre multitud de registros son más lentas que en el caso anterior.
 
-**3.3 Ficheros secuenciales encadenados.**
+### **3.3 Ficheros secuenciales encadenados.**
 
 Son ficheros secuenciales gestionados mediante punteros.
 
@@ -104,7 +104,7 @@ una clave
 espacio
 - Añadir registros o modificar las claves son operaciones que requieren recalcular los punteros
 
- **3.4 Ficheros secuenciales indexados.**
+### **3.4 Ficheros secuenciales indexados.**
 
 Se utilizan dos ficheros para los datos, uno posee los registros almacenados de forma secuencial, pero
 que permite su acceso aleatorio. El otro posee una tabla con punteros a la posición ordenada de los
@@ -122,7 +122,7 @@ posición que ocupan en el archivo.
 que hay que reescribir de nuevo y de forma ordenada todo el archivo.
 - La adición de registros requiere más tiempo que en los casos anteriores al tener que reordenar los índices
 
-**3.5 Ficheros indexado – encadenados.**
+### **3.5 Ficheros indexado – encadenados.**
 
 Utiliza punteros e índices, es una variante encadenada del caso anterior. Hay un fichero de índices y otro fichero de tipo encadenado con punteros a los
 siguientes registros. Cuando se añaden registros se añaden en un tercer registro llamado de desbordamiento u overflow.En ese archivo los datos se almacenan secuencialmente.
