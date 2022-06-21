@@ -199,7 +199,7 @@ En la época de los ochenta también se desarrollará el SQL (Structured Query
 Primero es necesario necesario reunirse con el cliente y anilizar los requerimientos que debe cumplir el software a desarrollar.
 Ademas, se recopila toda la información que es necesaria para entender el sistema (ya sea en formato fisico o digital).
 
-## - Etapa 2: Diseño conceptual (modelo entidad-relacional):
+## - Etapa 2: Diseño conceptual (modelo entidad-relación):
 En esta etapa basicamente se identifican los principales elementos del sistema (entidades) y sus caracteristicas (atributos) y se realiza un esquema conceptual.
 Para poder apreciar con mayor claridad como se relacionan las distintas entidades y la funcion de cada una. Ademas se establecen los distintos niveles de cardinalidad (uno a uno, uno a muchos, muchos a muchos)
 
