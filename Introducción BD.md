@@ -169,3 +169,61 @@ que descomprimirlos lo que hace que la manipulación de los datos sea lenta.
 **Cifrado de datos**
 
 Utilizar técnicas de cifrado para proteger los ficheros en caso de que alguien no autorizado se haga con el fichero. Para descifrar necesitamos una clave o bien aplicar métodos de descifrado.
+
+
+
+# Historia y evolución de las bases de datos
+
+**- Primer prototipo de una BD (1884):**
+
+En 1884 Herman Hollerith creó la máquina automática de tarjetas perforadas, siendo nombrado así el primer ingeniero estadístico de la historia.
+Esta tecnologia fue utilizada para el censo que se estaba llevando a cabo en Estados Unidos en ese momento, lo cual permitio que esta tarea se realizara de una manera mucho mas efectiva.
+
+**- Cintas magneticas (1950):**
+
+En la década de los cincuenta (1950s) se desarrollan las cintas magnéticas, para automatizar la información y hacer respaldos. Esto sirvió para suplir las necesidades de información de las nuevas industrias. Y a través de este mecanismo se empezó a automatizar la información, con la desventaja de que solo se podía hacer de forma secuencial.
+
+**- Discos Duros (1960):**
+
+Posteriormente en la decada de 1960, las computadoras bajaron los precios para que las compañías privadas las pudiesen adquirir, dando paso a que se popularizara el uso de los discos, cosa que fue un adelanto muy efectivo en la época, debido a que a partir de este soporte se podía consultar la información directamente, sin tener que saber la ubicación exacta de los datos
+
+**- Desarrollo de softwares de gestion basados en el modelo relacional (1980):**
+
+En la época de los ochenta también se desarrollará el SQL (Structured Query Language) o lo que es lo mismo un lenguaje de consultas o lenguaje declarativo de acceso a bases de datos relacionales que permite efectuar consultas con el fin de recuperar información de interés de una base de datos y hacer cambios sobre la base de datos de forma sencilla; además de analiza grandes cantidades de información y permitir especificar diversos tipos de operaciones frente a la misma información, a diferencia de las bases de datos de los años ochenta que se diseñaron para aplicaciones de procesamiento de transacciones. Pero cabe destacar que ORACLE es considerado como uno de los sistemas de bases de datos más completos que existen en el mundo, y aunque su dominio en el mercado de servidores empresariales ha sido casi total hasta hace relativamente poco, actualmente sufre la competencia del SQL Server de la compañía Microsoft y de la oferta de otros Sistemas Administradores de Bases de Datos Relacionales con licencia libre como es el caso de PostgreSQL, MySQL o Firebird que aparecerían posteriormente en la década de 1990.
+
+
+# Diseño y desarrollo de una base de datos
+
+
+## - Etapa 1: Relevamiento de requerimientos:
+Primero es necesario necesario reunirse con el cliente y anilizar los requerimientos que debe cumplir el software a desarrollar.
+Ademas, se recopila toda la información que es necesaria para entender el sistema (ya sea en formato fisico o digital).
+
+## - Etapa 2: Diseño conceptual (modelo entidad-relacional):
+En esta etapa basicamente se identifican los principales elementos del sistema (entidades) y sus caracteristicas (atributos) y se realiza un esquema conceptual.
+Para poder apreciar con mayor claridad como se relacionan las distintas entidades y la funcion de cada una. Ademas se establecen los distintos niveles de cardinalidad (uno a uno, uno a muchos, muchos a muchos)
+
+## - Etapa 3: Diseño logico (diseño de tablas relacionales):
+En esta etapa se realiza una transicion del modelo conceptual desarrollado previamente a un modelo de tablas relacionales, los elementos del modelo previo tendrán denominaciones distintas, por ejemplo:
+- Entidades = Tablas
+- Atributos = Campos
+- Registros = Tuplas
+- Cardinalidad = Relaciones
+
+Otras consideraciones:
+- Cada entidad corresponde a una tabla.
+- Cuando hay una relacion muchos a muchos, se debe crear “una tabla intermedia” cuando se pasa al modelo relacional.
+
+## - Etapa 4: Diseño fisico:
+El objetivo del diseño físico es la generación del esquema físico de la base de datos en el modelo de datos que implementa el SGBD. Esto incluye la definición sobre el SGBD de las tablas con sus campos, la imposición de todas las restricciones de integridad y la definición de índices.
+
+
+
+
+
+
+
+
+
+
+
