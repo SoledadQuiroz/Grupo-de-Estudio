@@ -59,7 +59,7 @@ las tecnologías de la información en los valores humanos y sociales" . Estos v
 afectados son: la salud, la riqueza, el trabajo, la libertad, la democracia, el conocimiento,
 la privacidad, la seguridad o la autorrealización personal.
 
-## Objetivos de la EI (Ética Informática)
+## Objetivos de la EI (Ética Informática).
 La **EI** se plantea varios objetivos:
 
 •	Descubrir y articular dilemas éticos claves en informática.
