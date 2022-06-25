@@ -39,7 +39,7 @@ El itinerario se fundamenta en competencias y aptitudes básicas propias para el
 •	* Reconocimiento de la necesidad de actualización permanente, y para aprender en forma autónoma. *
 
 
-## Ética en la Informática
+## Ética en la Informática.
 La ética es una disciplina filosófica que se define como "principios directivos que
 orientan a las personas en cuanto a la concepción de la vida, el hombre, los juicios, los
 hechos, y la moral”.
@@ -78,11 +78,11 @@ razonamiento ético.
 la informática y además establecer una guía cuando no existe reglamentación de dar
 uso a Internet.
 
-## Contenidos
+## Contenidos.
 Al no ser la EI una disciplina aún asentada y con una tradición contrastada y compartida
 por muchos autores, no hay unanimidad en los contenidos de esta área.
 
-##  La Utilización de la Información
+##  La Utilización de la Información.
 Los problemas que aparecen en esta área son los relativos al uso no autorizado de los servicios
 informáticos o de la información contenida en ellos.Se plantean problemas de invasión de la
 privacidad, de falta de confidencialidad en la información, sobre todo de datos sensibles.Los
@@ -109,7 +109,7 @@ De esta situación se generan
 nuevos problemas posesión de propiedad, atribución, pirateo, plagio, derechos de autor,
 secretos industriales, derechos sobre productos, etc.
 
-## Lo informático como instrumento de actos potencialmente dañinos
+## Lo informático como instrumento de actos potencialmente dañinos.
 
 Las personas que proveen servicios informáticos y los que utilizan ordenadores, datos y
 programas han de ser responsables de la integridad y conveniencia de los resultados de sus
@@ -133,7 +133,7 @@ En el fondo se trata no solo de luchar contra acciones expresamente dañinas sin
 fomentar una responsabilidad en las aplicaciones informáticas que pueden tener
 consecuencias controvertidas o que incluso pueden ser desconocidas.
 
-##  la Inteligencia artificial
+##  la Inteligencia artificial.
 
 La **EI** toma en consideración de las visiones antropomórficas sobre los ordenadores como
 máquinas pensantes o como productores de verdades absolutas e infalibles, "trata de analizar
@@ -147,7 +147,7 @@ que es justo, entre la vida humana y ciertas cantidades de dinero); por otro lad
 sesgos escondidos en el proceso de toma de decisiones; por último, hasta qué punto son los
 diseñadores de estos sistemas responsables de los resultados de los mismos.
 
-## Miedos y amenazas de la informática y Dimensiones sociales de la informática
+## Miedos y amenazas de la informática y Dimensiones sociales de la informática.
 
 La informática ha contribuido en el desarrollo de las tecnologías de la información haciendo
 posible las comunicaciones instantáneas, contribuyendo de esta manera en el desarrollo
@@ -158,7 +158,7 @@ Desde la **EI** se podría concienciar a los informáticos sobre la eticidad de 
 "superinteligentes" para idear sufrimiento y destrucción humana y de alimentar mercados
 militares en países en desarrollo por parte de los que poseen tecnología."
 
-## LA DEONTOLOGÍA – LA DEONTOLOGÍA INFORMÁTICA
+## LA DEONTOLOGÍA – LA DEONTOLOGÍA INFORMÁTICA.
 
 La Deontología informática hace referencia a la ciencia o tratado de los deberes y normas
 éticas, que conciernen a los profesionales que a diario están en contacto con la tecnología y
@@ -166,7 +166,7 @@ los medios masivos de comunicación como internet.
 Por tanto trata, de la moral o ética profesional en el manejo del activo más importante que
 tienen las empresas, un bien cada vez más apreciado, que es la información.
 
-## LOS CÓDIGOS ÉTICOS
+## LOS CÓDIGOS ÉTICOS.
 
 Los códigos de ética, tal como se conocen en el mundo de las empresas, son sistemas de
 reglas establecidos con el propósito general de guiar el comportamiento de los integrantes de
@@ -237,7 +237,7 @@ ampliar la gama de opciones realizables en diversas esferas de la vida, ensancha
 horizontes educativos y culturales, superar las divisiones y promover el desarrollo humano
 de múltiples modos.
 
-##  Los problemas éticos más significativos en Internet
+##  Los problemas éticos más significativos en Internet.
 
 En gran medida el desarrollo científico y tecnológico de este siglo ha sido impulsado por
 intereses vinculados con el afán de la hegemonía mundial de las grandes potencias, a las
@@ -260,7 +260,7 @@ la sociedad (como la posición social económica) a las habilidades de aquellos 
 manejan mas el medio o que pueden intervenir de manera subrepticia en las
 comunicaciones ajenas.
 
-## LA SOCIEDAD DE LA INFORMACIÓN
+## LA SOCIEDAD DE LA INFORMACIÓN.
 
 La Sociedad de la Información es un hecho permanentemente reconstruido por actores que
 pertenecen a sectores sociales de la gran mayoría de los países del globo.
@@ -274,15 +274,14 @@ de informatización que se producen en los Estados Nacionales, por medio de los 
 hace posible que actores de cada vez más amplios sectores sociales tengan acceso al uso de
 las TICs (tecnologías de información y comunicaciones) para su participación en la vida
 social. 
- Pero en los
-países de América Latina y el Caribe los que forman parte de la Sociedad de la
+Pero en los países de América Latina y el Caribe los que forman parte de la Sociedad de la
 Información son minoritarios por lo que afirmamos que las sociedades latinoamericanas no
 son sociedades de la información. En ellas están presentes en grados relativamente bajos, en
 todo caso, son sociedades en proceso de informatización; en camino de llegar a ser
 sociedades de la información, si las vemos desde la óptica evolucionista que impregna
 mayoritariamente a la opinión especializada en el área.
 
-# Moral vs. Ética
+# Moral vs. Ética.
 
 Ambos términos se usan de manera indistinta como si abarcarán el mismo significado
 pero no lo son.
@@ -290,7 +289,7 @@ La ética es una rama de la filosofía y la moral forma parte de la vida diaria.
 La ética seria la moral pensada, mientras
 que la moral sería la moral vivida. 
 
-### Ética 
+### Ética. 
 
 Búsqueda del bien, de la realización personal en armonía con los seres humanos e
 implica una relación dinámica entre nuestros valores y los de la sociedad que nos haya
@@ -299,18 +298,18 @@ La ética intenta responder en la teoría y la practica la pregunta de cómo deb
 desde un punto de vista académico, es la rama de la filosofía que estudia los principios
 morales, lo que es bueno y malo.
 
-### Ética etimológica
+### Ética etimológica.
 
 Proviene de la lengua griega Ethos manera de hacer costumbre.
 
-### Campo de uso
+### Campo de uso.
 
 En el campo personal la ética suele apuntar a valores fundamentales, como diferenciar el
 bien del mal, que es justo y deseable y cuál debe ser nuestra postura en cuanto a temas,
 como la libertad, las desigualdades, los problema sociales, problemas ambientales, la
 vigencia o no de nuestros códigos morales entre otros temas.
 
-### ¿Que la gobierna?
+### ¿Que la gobierna?.
 
 En el campo laboral existe la llamada ética laboral. Honestidad, puntualidad sobriedad
 respeto etc.
@@ -318,7 +317,7 @@ Y en muchas profesiones como la medicina la docencia o el derecho existen los c�
 éticos que pueden confundirse con los morales que se corresponden con el código de
 conducta del profesional.
 
-### Consistencia
+### Consistencia.
 
 La ética tiende a ser teórica y personal. Continuamente se pregunta por la naturaleza y el
 bien en las actividades humanas y sobre la validez de la moralidad en cada sociedad
@@ -334,7 +333,7 @@ valores judeocristianos grecolatinos. En otras regiones del mundo como China, In
 países Musulmanes hay influencias confuciana, Budistas o del Hinduismo.
 Sin embargo todas tienen en común la preocupación por el buen vivir.
 
-### Ejemplos de ética
+### Ejemplos de ética.
 
 Declaración de derechos humanos.
 Proclamada por las naciones unidas 1948 y traducida a más de 500 idiomas, que en su
@@ -342,25 +341,25 @@ artículo primero afirma: “todos los seres humanos nacemos libre e iguales en 
 derechos, y dotados como están de razón y conciencia deben comportarse fraternalmente
 los unos para con los otros “.
 
-### Juramento Hipocrático
+### Juramento Hipocrático.
 
 Un ejemplo también clásico de código ético laboral es el juramento Hipocrático que
 realizan los profesionales de la medicina al concluir sus estudios en casi todo el mundo,
 y que aunque actualizado, ha estado vigente por más de dos mil años.
 
-### Ejemplos de Influencias
+### Ejemplos de Influencias.
 
 Ejemplo diario de conducta ética influenciada por el Judeocristianismo es que
 consideremos natural amar al prójimo y considerar malo el asesinato y el robo. Y de
 influencia grecolatina la defensa de la igualdad de derechos y la libertad en todas su
 formas.
 
-### Ejemplo de conflicto entre moral y ética
+### Ejemplo de conflicto entre moral y ética.
 
 Están aquellos que se dan en torno en temas como el aborto, la pena de muerte, la
 sexualidad, la libertad de expresión etc.
 
-## Qué es la moral
+## ¿Qué es la moral?.
 
 Se refiere a los códigos de normas impuestos por una sociedad para regular la conducta o
 el comportamiento de los individuos. Abarca reglas tradiciones y valores compartidas por
@@ -368,12 +367,12 @@ una sociedad en determinado momento de su historia.
 La ética versa sobre lo que es bueno, mientras que la moral trata sobre lo que es
 obligatorio.
 
-### Etimología de moral
+### Etimología de moral.
 
 Proviene del latín moralis que a su vez deriva del termino mos, moris (costumbre,
 principios y reglas que rigen en la vida social).
 
-### Campo de uso
+### Campo de uso.
 
 Los códigos morales se aplican a la vida cotidiana y a la conducta humana, nos dice como
 es el modo correcto de actuar en cada situación y lugar.
@@ -382,7 +381,7 @@ Por ejemplo en la guerra de Vietnam en EEUU aquellos que se negaron a acudir al
 servicio militar, eran tratados como desertores. Son casos clásicos de conflictos entre
 personal y ética del estado.
 
-### ¿Que la gobierna?
+### ¿Que la gobierna?.
 
 La moral tiende a ser normativa a reflejarse en reglamentos y prohibiciones, como
 algunos preceptos recogidos en textos judeocristianos como los diez mandamientos.
@@ -390,7 +389,7 @@ Forman parte de la moralidad las normas de comportamiento. Valores como la honra
 la discreción en el actuar y vestir, el respeto a la autoridad civil y el acatamiento de normas
 religiosas.
 
-### Consistencia
+### Consistencia.
 
 Los códigos morales pueden variar en el tiempo y en el espacio, en una misma cultura los
 valores se van modificando de acuerdo con las dinámicas y los distintos procesos sociales,
@@ -400,7 +399,7 @@ Esto es muy evidente en países con clases sociales castas bien diferenciadas. T
 culturas donde conviven varias religiones.
 En este sentido la moral no es uniforme ni por muchos años.
 
-# Dilema en las Redes Sociales
+# Dilema en las Redes Sociales.
 
 “Hay dos industrias que llaman a sus clientes usuarios: la de las drogas ilegales y la del
 software".
@@ -446,7 +445,7 @@ Luego, se ofrece información sobre los usuarios a los clientes, desde marcas de
 cosméticos y universidades hasta políticos y gobiernos, que pagan millones de dólares
 por mostrar productos o ideas a audiencias que estén dispuestas a participar.
 
-### Herramientas diseñadas para engancharnos y manipularnos
+### Herramientas diseñadas para engancharnos y manipularnos.
 
 Una de las voces principales de la película es Tristan Harris, un exingeniero de Google
 que trató de advertir a sus colegas sobre el riesgo de adicción a los usuarios, y dice que
@@ -463,7 +462,7 @@ Estos "chupetes" son las validaciones recibidas por elogios, y aportan un sentim
 felicidad o logro a los usuarios, según él.
 "Eso va atrofiando nuestra capacidad de afrontar las cosas", advierte el especialista.
 
-### Falsas recompensas
+### Falsas recompensas.
 
 Los profesionales detrás de las redes sociales trabajan, según la película,
 construyendo puentes entre la psicología y la tecnología.
@@ -478,7 +477,7 @@ Mediante sistemas de "recompensa inmediata", como los "me gusta" o los comentari
 positivos, las redes sociales habrían creado métodos de navegación capaces de estimular
 la circulación de la dopamina a niveles sin precedentes.
 
-### Seguridad vs Inseguridad
+### Seguridad vs Inseguridad.
 
 El psicólogo social Jonathan Haidt dice en la película que las redes están directamente
 relacionadas con el aumento de casos de depresión y ansiedad, especialmente entre niños
@@ -494,7 +493,7 @@ duplicaron entre 2007 y 2015, con 5,1 casos por cada 100.000 habitantes.
 Según el documental, este escenario no es resultado del uso irresponsable de las redes
 sociales, sino de la forma irresponsable en la que las redes tratan a sus usuarios.
 
-### Las noticias falsas se propagan 6 veces más rápido que las verdaderas
+### Las noticias falsas se propagan 6 veces más rápido que las verdaderas.
 
 La frase aparece como una cita de un estudio publicado en 2018 por el instituto
 Tecnológico de Massachusetts (MIT, por sus siglas en inglés), en Estados Unidos.
@@ -503,7 +502,7 @@ rinde más dinero a las empresas que la verdad", dice uno de los entrevistados.
 Completa, es una de las frases de la película que se ha viralizado en las últimas semanas:
 "La verdad es aburrida".
 
-### Consejos para protegerse
+### Consejos para protegerse.
 
 **a)** Las notificaciones, según el filme, serían la principal herramienta de manipulación en
 las redes. La sugerencia de los entrevistados es deshabilitarlas, para acceder la red social
