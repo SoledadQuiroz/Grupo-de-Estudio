@@ -3,3 +3,9 @@ Crear una lista en Python denominada “Dueno2” y recorrerla con un bucle most
 23546987, “Maria”, “Perez”, 4789689, “Pueyrredon 811”
 que representan los datos del dueño de un perro (DNI, nombre, apellido, teléfono y dirección)
 '''
+Dueno2 = [23546987, "Maria", "Perez", 4789689, "Pueyrredon 811"]
+
+for i in range(len(Dueno2)):
+    if i == 0 or i == 2:
+        continue
+    print(Dueno2[i])
