@@ -1,6 +1,5 @@
 #tupla base:
-historial2 = (23500, 5960, 2300, 10200, 8900
-)
+historial2 = (23500, 5960, 2300, 10200, 8900)
 
 #funcion 1: calcula los gastos mayores a $5.000
 def gastos_mayores(elem):
