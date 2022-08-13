@@ -1,0 +1,30 @@
+CREATE DATABASE Base_Peluqueria
+USE Base_peluqueria
+CREATE TABLE Dueno(
+DNI INT NOT NULL PRIMARY KEY,
+Nombre VARCHAR (100),
+Apellido VARCHAR (100),
+Teléfono BIGINT NOT NULL,
+Dirección TEXT(100))
+CREATE TABLE Perro(
+ID_Perro INT NOT NULL PRIMARY KEY,
+Nombre VARCHAR(100),
+Fecha_nac DATETIME,
+Sexo VARCHAR(50),
+DNI_dueno INT NOT NULL,
+CONSTRAINT fk_Perro FOREIGN KEY(DNI_dueno)
+REFERENCES Dueno(DNI))
+CREATE TABLE Historial(
+ID_Historial INT NOT NULL PRIMARY KEY,
+Fecha DATETIME,
+Perro INT NOT NULL,
+Descripción VARCHAR (150),
+Monto INT NOT NULL,
+CONSTRAINT fk_Historial FOREIGN KEY (Perro)
+REFERENCES Perro (ID_Perro))
+INSERT INTO Dueno(DNI,Nombre,Apellido,Teléfono,Dirección)
+VALUES( 30840508,"Juan","Perez",3517993497,"Colon 255")
+INSERT INTO Perro(ID_Perro,Nombre,Fecha_nac,sexo,DNI_dueno)
+VALUES ( 2197,"Max",CURRENT_TIMESTAMP(),"Macho",30840508)
+TRUNCATE TABLE Historial;
+ALTER TABLE Historial AUTO_INCREMENT=1;
