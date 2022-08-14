@@ -6,12 +6,12 @@ CREATE TABLE Dueno (
     Nombre VARCHAR(50) NOT NULL,
     Apellido VARCHAR(50) NOT NULL,
     Telefono BIGINT NOT NULL,
-    Direccion VARCHAR(100) NOT NULL,
+    Direccion VARCHAR(100),
     PRIMARY KEY (DNI)
 );
 -- Tabla Perro
 CREATE TABLE Perro (
-    ID_Perro INT NOT NULL AUTO_INCREMENT,
+    ID_Perro INT AUTO_INCREMENT,
     Nombre_perro VARCHAR(50) NOT NULL,
     Fecha_nac DATE NOT NULL,
     Sexo VARCHAR(10) NOT NULL,
@@ -22,11 +22,11 @@ CREATE TABLE Perro (
 );
 -- Tabla Historial
 CREATE TABLE Historial (
-    ID_Historial INT NOT NULL AUTO_INCREMENT,
+    ID_Historial INT AUTO_INCREMENT,
     Fecha DATE NOT NULL,
     Perro INT NOT NULL,
-    Descripcion VARCHAR(100) NOT NULL,
-    Monto INT NOT NULL,
+    Descripcion VARCHAR(100),
+    Monto INT,
     PRIMARY KEY (ID_Historial),
     FOREIGN KEY (perro)
         REFERENCES Perro (ID_Perro)
