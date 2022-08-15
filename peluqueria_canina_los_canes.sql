@@ -68,7 +68,7 @@ SELECT * FROM perro;
 SELECT * FROM Dueno;
 SELECT * FROM Historial;
 
--- ACTIVIDAD 11: (consigna que fue designada para mi)
+-- ACTIVIDAD 11:
 -- 1ro) filtrar dueños de perros de 5 años o menores
 SELECT DNI_Dueno from Perro WHERE Anio_nac >= 2017;
 -- 2do) filtrar quienes de los dueños / mascotas anteriores que no visitaron el local en este año
