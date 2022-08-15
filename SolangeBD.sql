@@ -39,4 +39,5 @@ Monto float,
 constraint pk_cIdHistorial1 primary key (clave_IdHistorial),
 constraint fk_fIdPerro1 foreign key (clave_IdPerro1) references Perro(clave_IdPerro)
 );
+insert into Historial values(10,"2022-05-15",10,"Vacunado todas las dosis", 2500);
 
